@@ -1,0 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var numList = [45.112, 78.567, 66.891, 12.223, 28.341];
+numList.forEach(function (currentValue, index, array) {
+    var roundedElement = Math.round(currentValue);
+    console.log("".concat(index + 1, "\u500B\u76EE\u306E\u8981\u7D20").concat(currentValue, "\u306E\u4E38\u3081\u51E6\u7406\u5F8C\uFF1A").concat(roundedElement));
+});
